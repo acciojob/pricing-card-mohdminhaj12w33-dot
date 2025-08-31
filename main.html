@@ -1,16 +1,72 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      width: 320px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    .card h1 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .card p.price {
+      font-size: 50px;
+      font-weight: bold;
+      margin: 8px 0;
+      color: #27ae60;
+    }
+    .card p.description {
+      font-size: 50px;
+      color: #555;
+      margin: 30px 0 100px;
+    }
+    .card button {
+      padding: 12px 20px;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 30px;
+      transition: background-color 0.3s ease;
+    }
+    .card button:hover {
+      background-color: #219150;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x180" alt="Product Image">
+    <h1>Pricing Card</h1>
+    <p class="price">Rs.200</p>
+    <p class="description">Loremipusm dolor sit amet</p>
+    <button>Buy Now</button>
+  </div>
 
 </body>
-
 </html>
